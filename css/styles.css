@@ -5,3 +5,8 @@ font-family: 'Quattrocento', serif;
 font-family: 'Sriracha', cursive;
 
 */
+
+body {
+  max-width: 375px;
+  margin: auto;
+}
