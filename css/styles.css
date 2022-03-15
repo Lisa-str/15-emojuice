@@ -6,6 +6,12 @@ font-family: 'Sriracha', cursive;
 
 */
 
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -32,8 +38,11 @@ header img {
   max-height: 45px;
 }
 
+header h1 {
+  margin: 36px 40px 12px 20px;
+}
+
 .bouton {
-  border: solid 2px #7DB96F;
   border-radius: 15px;
   background-color: #7DB96F;
   color: white;
@@ -50,6 +59,10 @@ header a {
 }
 /* main */
 
+main {
+  padding: 0;
+}
+
 main img {
   max-height: 80px;
 }
@@ -61,6 +74,42 @@ main img {
 
 article {
   text-align: start;
+}
+.section-produit {
+  background-color: #7DB96F;
+}
+
+.produit {
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0000005d;
+}
+
+.produit-banane {
+  background-color: #FCF7D6;
+}
+
+.produit-kiwi {
+  background-color: #D0F1AE;
+}
+
+.produit-cafe {
+  background-color: #CDC4B0;
+}
+
+.produit-fraise {
+  background-color: #E2A2B1;
+}
+
+
+.section-produit article {
+  display: flex;
+  flex-direction: column;
+  margin: 22px 30px;
+  max-width: 231px;
+}
+
+.produit {
+
 }
 
 /* footer */
