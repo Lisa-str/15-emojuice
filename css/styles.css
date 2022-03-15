@@ -78,13 +78,17 @@ p {
   font-family: 'Quattrocento', serif;
 }
 
-.ligne-fruit-1 img,
-.ligne-fruit-2 img {
+.ligne-fruit-1,
+.ligne-fruit-2  {
   max-height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: space-evenly;
+  flex-wrap: nowrap;
 }
 
 .presentation {
-  padding: 20px 37px 30px;
+  padding: 20px 67px 30px;
 }
 
 article {
@@ -147,7 +151,7 @@ article h1 {
 .section-produit article {
   display: flex;
   flex-direction: column;
-  margin: 22px 30px;$
+  margin: 22px 30px;
 }
 
 /* footer */
