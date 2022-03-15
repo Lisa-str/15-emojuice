@@ -8,10 +8,58 @@ font-family: 'Sriracha', cursive;
 
 html {
   scroll-behavior: smooth;
-  background-color: #7DB96F;
 }
 
 body {
   max-width: 375px;
   margin: auto;
+  text-align: center;
+}
+
+/* header */
+
+header {
+  background-image: url(/img/fruits.webp);
+  color: #7DB96F;
+}
+
+header div {
+  background-color: rgba(255, 255, 255, 0.781);
+}
+
+header img {
+  max-width: 205px;
+  max-height: 45px;
+}
+
+.bouton {
+  border: solid 2px #7DB96F;
+  border-radius: 15px;
+  background-color: #7DB96F;
+  color: white;
+}
+
+.bouton-blanc {
+  background-color: white;
+  border: white;
+  color: #7DB96F;
+}
+
+header a {
+  text-decoration: none;
+}
+/* main */
+
+main img {
+  max-height: 80px;
+}
+
+.ligne-fruit-1 img,
+.ligne-fruit-2 img {
+  max-height: 20px;
+}
+/* footer */
+
+a {
+  text-decoration: none;
 }
