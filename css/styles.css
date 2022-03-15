@@ -23,7 +23,7 @@ body {
 }
 
 h2 {
-  font-size: 26pt;
+  font-size: 26px;
 }
 
 /* header */
@@ -32,11 +32,13 @@ header {
   background-image: url(/img/fruits.webp);
   color: #7DB96F;
   padding: 20px 37px 30px;
+  border-top: 8px #7DB96F;
 }
 
-header div {
+.titre {
   background-color: rgba(255, 255, 255, 0.781);
   font-family: 'Quattrocento', serif;
+  padding: 16px 38px 28px;
 }
 
 header img {
@@ -53,6 +55,11 @@ header h1 {
   background-color: #7DB96F;
   color: white;
   padding: 10px 20px 12px;
+  margin: 18px 0;
+}
+
+.bouton-footer {
+  margin: 5px 0;
 }
 
 .bouton-blanc {
@@ -61,14 +68,18 @@ header h1 {
   color: #7DB96F;
 }
 
+.bouton-flex {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+}
+
 header a {
   text-decoration: none;
 }
-/* main */
 
-main {
-  padding: 0;
-}
+/* main */
 
 main img {
   max-height: 80px;
@@ -78,13 +89,16 @@ p {
   font-family: 'Quattrocento', serif;
 }
 
-.ligne-fruit-1,
-.ligne-fruit-2  {
+.ligne-fruit {
   max-height: 20px;
   display: flex;
   flex-direction: row;
-  align-items: space-evenly;
   flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.ligne-fruit img{
+  width: 30px;
 }
 
 .presentation {
@@ -109,7 +123,7 @@ article h1 {
 }
 
 article h1 {
-  font-size: 30pt;
+  font-size: 30px;
 }
 
 .produit p {
@@ -145,7 +159,7 @@ article h1 {
   justify-content: space-between;
   text-decoration: underline;
   font-weight: 700;
-  font-size: 14pt;
+  font-size: 14px;
 }
 
 .section-produit article {
@@ -162,10 +176,10 @@ a {
 
 footer {
   color: #7DB96F;
-  padding: 20px 37px 30px;
+  padding: 20px 68px 30px;
 }
 
 footer p {
   font-family: 'Maven Pro', sans-serif;
-  font-size: 12pt;
+  font-size: 12px;
 }
