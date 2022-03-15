@@ -20,6 +20,7 @@ body {
   max-width: 375px;
   margin: auto;
   text-align: center;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 /* header */
@@ -31,6 +32,7 @@ header {
 
 header div {
   background-color: rgba(255, 255, 255, 0.781);
+  font-family: 'Quattrocento', serif;
 }
 
 header img {
@@ -46,6 +48,7 @@ header h1 {
   border-radius: 15px;
   background-color: #7DB96F;
   color: white;
+  padding: 10px 20px 12px;
 }
 
 .bouton-blanc {
@@ -67,6 +70,10 @@ main img {
   max-height: 80px;
 }
 
+p {
+  font-family: 'Quattrocento', serif;
+}
+
 .ligne-fruit-1 img,
 .ligne-fruit-2 img {
   max-height: 20px;
@@ -75,8 +82,17 @@ main img {
 article {
   text-align: start;
 }
+
+article h1 {
+  font-family: 'Sriracha', cursive;
+}
+
 .section-produit {
   background-color: #7DB96F;
+}
+
+.section-produit h2 {
+  color: white;
 }
 
 .produit {
@@ -100,7 +116,6 @@ article {
   background-color: #E2A2B1;
 }
 
-
 .section-produit article {
   display: flex;
   flex-direction: column;
@@ -108,12 +123,16 @@ article {
   max-width: 231px;
 }
 
-.produit {
-
-}
-
 /* footer */
 
 a {
   text-decoration: none;
+}
+
+footer {
+  color: #7DB96F;
+}
+
+footer p {
+  font-family: 'Maven Pro', sans-serif;
 }
