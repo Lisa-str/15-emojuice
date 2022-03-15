@@ -31,6 +31,7 @@ h2 {
 header {
   background-image: url(/img/fruits.webp);
   color: #7DB96F;
+  padding: 20px 37px 30px;
 }
 
 header div {
@@ -80,6 +81,10 @@ p {
 .ligne-fruit-1 img,
 .ligne-fruit-2 img {
   max-height: 20px;
+}
+
+.presentation {
+  padding: 20px 37px 30px;
 }
 
 article {
@@ -153,6 +158,7 @@ a {
 
 footer {
   color: #7DB96F;
+  padding: 20px 37px 30px;
 }
 
 footer p {
