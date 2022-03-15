@@ -58,6 +58,11 @@ main img {
 .ligne-fruit-2 img {
   max-height: 20px;
 }
+
+article {
+  text-align: start;
+}
+
 /* footer */
 
 a {
