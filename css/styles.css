@@ -19,26 +19,28 @@ body {
   max-width: 380px;
   margin: auto;
   text-align: center;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 25px;
+  margin: 10px;
 }
 
 /* header */
 
 header {
   background-image: url(/img/fruits.webp);
-  color: #7DB96F;
+  color: #7db96f;
   padding: 20px 37px 30px;
-  border-top: 8px #7DB96F;
+  border-top: 8px solid #7db96f;
 }
 
 .titre {
   background-color: rgba(255, 255, 255, 0.781);
-  font-family: 'Quattrocento', serif;
+  font-family: "Quattrocento", serif;
   padding: 16px 38px 28px;
+  margin-bottom: 10px;
 }
 
 header img {
@@ -52,20 +54,21 @@ header h1 {
 
 .bouton {
   border-radius: 15px;
-  background-color: #7DB96F;
+  background-color: #7db96f;
   color: white;
   padding: 10px 20px 12px;
-  margin: 18px 0;
+  margin: 10px 0;
 }
 
 .bouton-footer {
   margin: 5px 0;
+  box-shadow: 0 0 2px #0000005d;
 }
 
 .bouton-blanc {
   background-color: white;
   border: white;
-  color: #7DB96F;
+  color: #7db96f;
 }
 
 .bouton-flex {
@@ -86,7 +89,7 @@ main img {
 }
 
 p {
-  font-family: 'Quattrocento', serif;
+  font-family: "Quattrocento", serif;
 }
 
 .ligne-fruit {
@@ -95,14 +98,15 @@ p {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
+  margin: 10px 0;
 }
 
-.ligne-fruit img{
+.ligne-fruit img {
   width: 30px;
 }
 
 .presentation {
-  padding: 20px 67px 30px;
+  padding: 50px;
 }
 
 article {
@@ -110,12 +114,13 @@ article {
 }
 
 article h1 {
-  font-family: 'Sriracha', cursive;
+  font-family: "Sriracha", cursive;
   font-weight: 100;
 }
 
 .section-produit {
-  background-color: #7DB96F;
+  background-color: #7db96f;
+  padding: 10px;
 }
 
 .section-produit h2 {
@@ -127,7 +132,7 @@ article h1 {
 }
 
 .produit p {
-  color:#00000081;
+  color: #00000081;
 }
 
 .produit {
@@ -137,19 +142,19 @@ article h1 {
 }
 
 .produit-banane {
-  background-color: #FCF7D6;
+  background-color: #fcf7d6;
 }
 
 .produit-kiwi {
-  background-color: #D0F1AE;
+  background-color: #d0f1ae;
 }
 
 .produit-cafe {
-  background-color: #CDC4B0;
+  background-color: #cdc4b0;
 }
 
 .produit-fraise {
-  background-color: #E2A2B1;
+  background-color: #e2a2b1;
 }
 
 .savoir-plus {
@@ -168,6 +173,10 @@ article h1 {
   margin: 22px 30px;
 }
 
+/* kiwi.html */
+
+
+
 /* footer */
 
 a {
@@ -175,11 +184,12 @@ a {
 }
 
 footer {
-  color: #7DB96F;
+  color: #7db96f;
   padding: 20px 68px 30px;
 }
 
 footer p {
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   font-size: 12px;
+  margin-top: 50px;
 }
