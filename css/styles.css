@@ -52,7 +52,7 @@ header h1 {
   margin: 36px 40px 12px 20px;
 }
 
-.bouton {
+.button {
   border-radius: 15px;
   background-color: #7db96f;
   color: white;
@@ -60,18 +60,18 @@ header h1 {
   margin: 10px 0;
 }
 
-.bouton-footer {
+.button-footer {
   margin: 5px 0;
   box-shadow: 0 0 2px #0000005d;
 }
 
-.bouton-blanc {
+.button-blanc {
   background-color: white;
   border: white;
   color: #7db96f;
 }
 
-.bouton-flex {
+.button-flex {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -92,7 +92,7 @@ p {
   font-family: "Quattrocento", serif;
 }
 
-.ligne-fruit {
+.line-fruit {
   max-height: 20px;
   display: flex;
   flex-direction: row;
@@ -101,7 +101,7 @@ p {
   margin: 10px 0;
 }
 
-.ligne-fruit img {
+.line-fruit img {
   width: 30px;
 }
 
@@ -118,12 +118,12 @@ article h1 {
   font-weight: 100;
 }
 
-.section-produit {
+.section-product {
   background-color: #7db96f;
   padding: 10px;
 }
 
-.section-produit h2 {
+.section-product h2 {
   color: white;
 }
 
@@ -131,29 +131,29 @@ article h1 {
   font-size: 30px;
 }
 
-.produit p {
+.product p {
   color: #00000081;
 }
 
-.produit {
+.product {
   border-radius: 10px;
   box-shadow: 0 0 10px #0000005d;
   padding: 20px 37px 30px;
 }
 
-.produit-banane {
+.product-banana {
   background-color: #fcf7d6;
 }
 
-.produit-kiwi {
+.product-kiwi {
   background-color: #d0f1ae;
 }
 
-.produit-cafe {
+.product-cafe {
   background-color: #cdc4b0;
 }
 
-.produit-fraise {
+.product-fraise {
   background-color: #e2a2b1;
 }
 
@@ -167,7 +167,7 @@ article h1 {
   font-size: 14px;
 }
 
-.section-produit article {
+.section-product article {
   display: flex;
   flex-direction: column;
   margin: 22px 30px;
