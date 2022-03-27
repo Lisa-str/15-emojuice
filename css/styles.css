@@ -24,7 +24,7 @@ body {
 
 h2 {
   font-size: 25px;
-  margin: 10px;
+  padding: 10px;
 }
 
 /* header */
@@ -34,6 +34,7 @@ header {
   color: #7db96f;
   padding: 20px 37px 30px;
   border-top: 8px solid #7db96f;
+  background-size: cover;
 }
 
 .title {
@@ -176,11 +177,53 @@ article h1 {
 /* kiwi.html */
 
 .introduction {
-  background-color: #D0F1AE;
+  background-color: #d0f1ae;
 }
 
 .the-kiwi {
   background-color: #7db96f;
+}
+
+.the-kiwi {
+  padding: 30px 60px;
+  color: white;
+}
+
+.the-kiwi figure img {
+  width: 100%;
+  max-height: none;
+}
+
+.presentation-products {
+  background-color: #d9f1b0;
+}
+
+.introduction {
+  padding: 20px 60px;
+}
+
+.introduction {
+  text-align: center;
+}
+
+.introduction h1 {
+  font-family: 'Sriracha', cursive;
+  font-weight: 100;
+}
+
+.introduction p {
+  color: #00000081;
+}
+
+.introduction img {
+  max-height: none;
+}
+
+.circle {
+  background-color: white;
+  padding: 35px;
+  margin:  30px 42px;
+  border-radius: 50%;
 }
 
 /* footer */
