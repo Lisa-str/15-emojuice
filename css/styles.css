@@ -83,7 +83,7 @@ header a {
   text-decoration: none;
 }
 
-/* main */
+/* main + index.html */
 
 main img {
   max-height: 80px;
@@ -174,11 +174,6 @@ article h1 {
   margin: 22px 30px;
 }
 
-/* kiwi.html */
-
-.presentation-products {
-  background-color: #d9f1b0;
-}
 /* kiwi.html .introduction */
 
 .introduction {
@@ -214,9 +209,6 @@ article h1 {
 
 .the-kiwi {
   background-color: #7db96f;
-}
-
-.the-kiwi {
   padding: 30px 60px;
   color: white;
 }
@@ -224,6 +216,27 @@ article h1 {
 .the-kiwi figure img {
   width: 100%;
   max-height: none;
+  margin: 10px 0;
+}
+
+.the-kiwi p {
+  padding: 10px 0;
+}
+
+.the-kiwi ul {
+  padding: 10px;
+  list-style: inside;
+  margin: 0 0 0 10px;
+}
+
+.the-kiwi h2, h3 {
+  padding: 10px 0;
+}
+
+/* kiwi.html .presentation-product */
+
+.presentation-products {
+  background-color: #d9f1b0;
 }
 
 /* footer */
