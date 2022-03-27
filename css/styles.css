@@ -154,7 +154,7 @@ article h1 {
   background-color: #cdc4b0;
 }
 
-.product-fraise {
+.product-strawberry {
   background-color: #e2a2b1;
 }
 
@@ -237,7 +237,26 @@ article h1 {
 
 .presentation-products {
   background-color: #d9f1b0;
+  padding: 30px 60px;
 }
+
+.other-products {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction:row;
+  margin: 30px 0;
+}
+
+.other-products h1 {
+  font-size: 24px;
+}
+
+.product-square {
+  padding: 15px;
+  margin: 10px;
+}
+
+
 
 /* footer */
 
