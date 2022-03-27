@@ -158,7 +158,7 @@ article h1 {
   background-color: #e2a2b1;
 }
 
-.savoir-plus {
+.read-more {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -176,30 +176,14 @@ article h1 {
 
 /* kiwi.html */
 
-.introduction {
-  background-color: #d0f1ae;
-}
-
-.the-kiwi {
-  background-color: #7db96f;
-}
-
-.the-kiwi {
-  padding: 30px 60px;
-  color: white;
-}
-
-.the-kiwi figure img {
-  width: 100%;
-  max-height: none;
-}
-
 .presentation-products {
   background-color: #d9f1b0;
 }
+/* kiwi.html .introduction */
 
 .introduction {
   padding: 20px 60px;
+  background-color: #d0f1ae;
 }
 
 .introduction {
@@ -224,6 +208,22 @@ article h1 {
   padding: 35px;
   margin:  30px 42px;
   border-radius: 50%;
+}
+
+/* kiwi.html .the-kiwi */
+
+.the-kiwi {
+  background-color: #7db96f;
+}
+
+.the-kiwi {
+  padding: 30px 60px;
+  color: white;
+}
+
+.the-kiwi figure img {
+  width: 100%;
+  max-height: none;
 }
 
 /* footer */
