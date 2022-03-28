@@ -203,33 +203,34 @@ article h1 {
   padding: 35px;
   margin:  30px 42px;
   border-radius: 50%;
+  box-shadow: 0 0 10px #00000027;
 }
 
-/* kiwi.html .the-kiwi */
+/* kiwi.html .recipe */
 
-.the-kiwi {
+.recipe {
   background-color: #7db96f;
   padding: 30px 60px;
   color: white;
 }
 
-.the-kiwi figure img {
+.recipe figure img {
   width: 100%;
   max-height: none;
   margin: 10px 0;
 }
 
-.the-kiwi p {
+.recipe p {
   padding: 10px 0;
 }
 
-.the-kiwi ul {
+.recipe ul {
   padding: 10px;
   list-style: inside;
   margin: 0 0 0 10px;
 }
 
-.the-kiwi h2, h3 {
+.recipe h2, h3 {
   padding: 10px 0;
 }
 
