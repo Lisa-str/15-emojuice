@@ -30,7 +30,7 @@ h2 {
 /* header */
 
 header {
-  background-image: url(/img/fruits.webp);
+  background-image: url(../img/fruits.webp);
   color: #7db96f;
   padding: 20px 37px 30px;
   border-top: 8px solid #7db96f;
